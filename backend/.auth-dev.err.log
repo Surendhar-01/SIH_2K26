@@ -1,0 +1,42 @@
+ERROR: Access denied
+ERROR: Access denied
+node:child_process:1000
+    throw err;
+    ^
+
+Error: Command failed: taskkill /pid 16972 /T /F
+ERROR: Access denied
+
+    at genericNodeError (node:internal/errors:985:15)
+    at wrappedFn (node:internal/errors:539:14)
+    at checkExecSyncError (node:child_process:925:11)
+    at execSync (node:child_process:997:15)
+    at treeKillSync (C:\Users\suren\OneDrive\Desktop\SIH_2K26\backend\node_modules\@nestjs\cli\lib\utils\tree-kill.js:7:38)
+    at C:\Users\suren\OneDrive\Desktop\SIH_2K26\backend\node_modules\@nestjs\cli\actions\start.action.js:92:46
+    at Object.onWatchStatusChange (C:\Users\suren\OneDrive\Desktop\SIH_2K26\backend\node_modules\@nestjs\cli\lib\compiler\watch-compiler.js:82:17)
+    at C:\Users\suren\OneDrive\Desktop\SIH_2K26\backend\node_modules\typescript\lib\typescript.js:133916:30
+    at emitFilesAndReportErrors (C:\Users\suren\OneDrive\Desktop\SIH_2K26\backend\node_modules\typescript\lib\typescript.js:133737:5)
+    at result.afterProgramCreate (C:\Users\suren\OneDrive\Desktop\SIH_2K26\backend\node_modules\typescript\lib\typescript.js:133912:5) {
+  status: 1,
+  signal: null,
+  output: [
+    null,
+    Buffer(0) [Uint8Array] [],
+    Buffer(23) [Uint8Array] [
+       69,  82,  82,  79,  82,  58, 32,
+       65,  99,  99, 101, 115, 115, 32,
+      100, 101, 110, 105, 101, 100, 13,
+       13,  10
+    ]
+  ],
+  pid: 20012,
+  stdout: Buffer(0) [Uint8Array] [],
+  stderr: Buffer(23) [Uint8Array] [
+     69,  82,  82,  79,  82,  58, 32,
+     65,  99,  99, 101, 115, 115, 32,
+    100, 101, 110, 105, 101, 100, 13,
+     13,  10
+  ]
+}
+
+Node.js v24.13.1

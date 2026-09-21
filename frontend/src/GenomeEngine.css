@@ -1,0 +1,313 @@
+/* Genome Engine specific styles to append to App.css */
+/* Ensure to add these to the end of the file */
+.genome-engine {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 1rem;
+}
+
+.engine-tabs {
+  display: flex;
+  gap: 0.5rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.5rem;
+}
+
+.engine-tabs button {
+  background: var(--bg-panel);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.engine-tabs button.active {
+  background: var(--primary-accent);
+  color: #000;
+  border-color: var(--primary-accent);
+}
+
+.engine-tabs button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.engine-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+  background: var(--bg-panel);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.setup-tab .setup-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.setup-card {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.setup-card h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: var(--primary-accent);
+}
+
+.setup-card label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.setup-card input {
+  padding: 0.75rem;
+  background: var(--bg-input);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  border-radius: 4px;
+}
+
+.btn-primary.start-run {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  background: var(--primary-accent);
+  color: #000;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn-primary.start-run:hover {
+  filter: brightness(1.1);
+}
+
+.explorer-tab {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.genome-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.genome-card {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.genome-card:hover {
+  border-color: var(--primary-accent);
+}
+
+.genome-card.selected {
+  border-color: var(--primary-accent);
+  box-shadow: 0 0 10px rgba(0, 242, 254, 0.2);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 0.5rem;
+}
+
+.card-header h4 {
+  margin: 0;
+}
+
+.status-badge {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status-badge.evaluating { background: var(--bg-input); color: #aaa; }
+.status-badge.candidate { background: rgba(0, 242, 254, 0.2); color: #00f2fe; }
+.status-badge.rejected { background: rgba(255, 50, 50, 0.2); color: #ff4d4d; }
+.status-badge.optimized, .status-badge.recommended, .status-badge.success { background: rgba(50, 255, 100, 0.2); color: #32ff64; }
+.status-badge.warning { background: rgba(255, 200, 50, 0.2); color: #ffd700; }
+.status-badge.error, .status-badge.fail { background: rgba(255, 50, 50, 0.2); color: #ff4d4d; }
+
+.card-metrics {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.card-metrics div {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-metrics span {
+  color: #888;
+  margin-bottom: 0.25rem;
+}
+
+.genome-details-panel {
+  background: rgba(0, 242, 254, 0.05);
+  border: 1px solid var(--primary-accent);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 1rem;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+.metrics-grid .metric {
+  display: flex;
+  flex-direction: column;
+}
+
+.metrics-grid .metric label {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.metrics-grid .metric span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.success-text { color: #32ff64; }
+.error-text { color: #ff4d4d; }
+
+.failure-analysis {
+  background: rgba(255, 77, 77, 0.1);
+  border: 1px solid rgba(255, 77, 77, 0.3);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+}
+
+.loss-breakdown {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #ff8888;
+}
+
+.suggestions {
+  margin: 0;
+  padding-left: 1.5rem;
+  color: #ffcccc;
+}
+
+.shock-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+}
+
+.shock-table th, .shock-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.shock-table th {
+  background: rgba(255, 255, 255, 0.05);
+  color: #888;
+}
+
+.recommendations-tab .rec-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.rec-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--primary-accent);
+  border-radius: 8px;
+  padding: 1.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.rec-badge {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  background: var(--primary-accent);
+  color: #000;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 0.8rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.rec-card h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.rec-spec {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.rec-why h4 {
+  color: var(--primary-accent);
+  margin-bottom: 0.5rem;
+}
+
+.rec-why ul {
+  padding-left: 1.25rem;
+  font-size: 0.85rem;
+  color: #ccc;
+  margin-bottom: 1.5rem;
+}
+
+.ansys-btn {
+  margin-top: auto;
+  width: 100%;
+}

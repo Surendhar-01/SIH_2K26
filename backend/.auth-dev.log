@@ -1,0 +1,79 @@
+
+> backend@0.0.1 start:dev
+> nest start --watch
+
+[2J[3J[H[[90m10:49:16 pm[0m] Starting compilation in watch mode...
+
+[[90m10:49:33 pm[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:39 pm [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:39 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +40ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:39 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:39 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +4ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:39 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:39 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mThermalModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:39 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:39 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:39 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOptimizationModule dependencies initialized[39m[38;5;3m +86ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:39 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mComparisonModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:39 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mReportsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:39 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseCoreModule dependencies initialized[39m[38;5;3m +979ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +16ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +5ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMaterialsModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClimateModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSheltersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPcmModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mIoTModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAnsysModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +172ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api, GET} route[39m[38;5;3m +6ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/refresh, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/me, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/logout, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/api/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mMaterialsController {/api/materials}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/materials, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/materials, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/materials/:id, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mClimateController {/api/climate}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/climate, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/climate, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/climate/:id, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSheltersController {/api/shelters}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/shelters, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/shelters, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/shelters/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mThermalController {/api/thermal}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/thermal/predict-temperature, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOptimizationController {/api/optimization}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/optimization/run, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mComparisonController {/api/comparison}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/comparison/designs, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/comparison/baseline, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mPcmController {/api/pcm}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pcm, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pcm, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mIoTController {/api/iot}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/iot/readings, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/iot/devices/:id/readings, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAnsysController {/api/ansys}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/ansys/jobs, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/ansys/jobs/:id/run, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/ansys/jobs/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mReportsController {/api/reports}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:40 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/reports/pareto, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 14680  - [39m26/08/2026, 10:49:41 pm [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +720ms[39m
+[2J[3J[H[[90m11:10:55 pm[0m] File change detected. Starting incremental compilation...
+
